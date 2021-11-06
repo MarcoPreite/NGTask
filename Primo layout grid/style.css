@@ -1,0 +1,44 @@
+.calcolatrice {
+    background-color: blue;
+    max-width: 600px;
+    border-radius: 40px;
+}
+
+
+.bottonezero {
+    background-color: gray;
+    text-align: right;
+    grid-area: 1 / 1 / 1 / 5;
+    padding: 25px;
+    font-size: 50px;
+    border: none;
+}
+
+.bottoni {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border-radius: 50px;
+    font-size: 50px;
+    grid-gap: 2px;
+}
+
+.bottoneuguale {
+    grid-area: 3 / 4 / 7 / 5;
+    background-color: rgb(255, 70, 70);
+}
+
+.bottone,
+.bottoneopt {
+    font-size: 30px;
+    border: none;
+
+}
+
+.bottone {
+    background-color: white;
+}
+
+.bottoneopt {
+    background-color: rgb(134, 161, 181);
+}
